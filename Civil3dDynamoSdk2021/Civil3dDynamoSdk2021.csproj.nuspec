@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Civil3dDynamoSdk2021</id>
+    <version>1.0.0</version>
+    <authors>Dmitriy Zagorulkin</authors>    
+    <description>Dynamo SDK libraries for Civil 3D</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <tags>Autodesk Civil3D 2021 Dynamo SDK</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\net48\AcDynamo.dll" target="lib" />
+    <file src="bin\Release\net48\AcDynamoServices.dll" target="lib" />
+    <file src="bin\Release\net48\AeccDynamo.dll" target="lib" />
+    <file src="bin\Release\net48\AutoCADNodes.dll" target="lib" />
+    <file src="bin\Release\net48\AutoCADNodes.xml" target="lib" />
+    <file src="bin\Release\net48\Civil3DNodes.dll" target="lib" />
+    <file src="bin\Release\net48\Civil3DNodes.xml" target="lib" />
+    <file src="bin\Release\net48\install.ps1" target="tools" />
+  </files>
+</package>

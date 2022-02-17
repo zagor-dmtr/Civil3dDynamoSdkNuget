@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>default</LangVersion>
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="AcDynamo, Version=2.5.2.860, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\..\Work\SDK\AcDynamo\2021\AcDynamo.dll</HintPath>
+      </Reference>
+      <Reference Include="AcDynamoServices, Version=13.3.860.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\..\Work\SDK\AcDynamo\2021\AcDynamoServices.dll</HintPath>
+      </Reference>
+      <Reference Include="AeccDynamo, Version=13.3.860.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\..\Work\SDK\AcDynamo\2021\AeccDynamo.dll</HintPath>
+      </Reference>
+      <Reference Include="AutoCADNodes, Version=13.3.860.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\..\Work\SDK\AcDynamo\2021\AutoCADNodes.dll</HintPath>
+      </Reference>
+      <Reference Include="Civil3DNodes, Version=13.3.860.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\..\Work\SDK\AcDynamo\2021\Civil3DNodes.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="install.ps1">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
